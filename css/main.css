@@ -71,6 +71,11 @@
   padding: 15px 40px;
   font-size: 16px;
   font-weight: 500;
+  cursor: pointer;
+}
+
+.hero-button:hover {
+  background-color: #e8d797;
 }
 
 .hero-decoration1 {
