@@ -1,0 +1,161 @@
+.header-logo {
+  width: 100px;
+  height: 100px;
+  font-family: "Cormorant Upright", serif;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 38px;
+  font-weight: 600;
+}
+
+.header-nav,
+.header-registration {
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  display: flex;
+  gap: 40px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 100px;
+  margin-top: 30px;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.hero-title {
+  color: #DCCA87;
+  font-family: "Cormorant Upright", serif;
+  text-transform: capitalize;
+  font-size: 90px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.hero-img {
+  width: 500px;
+  height: auto;
+}
+
+.hero-text,
+.hero-description {
+  color: #ffffff;
+}
+
+.hero-text {
+  font-family: "Cormorant Upright", serif;
+  text-transform: capitalize;
+  font-size: 25px;
+}
+
+.hero-description {
+  font-family: "Open Sans", sans-serif;
+  color: #AAAAAA;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.hero-button {
+  font-family: "Cormorant Upright", serif;
+  color: #0C0B08;
+  background-color: #DCCA87;
+  border: none;
+  border-radius: 1px;
+  padding: 15px 40px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.hero-decoration1 {
+  width: 40px;
+  height: auto;
+}
+
+.hero-text-container {
+  width: 450px;
+  margin-top: 50px;
+}
+
+.hero-content {
+  display: flex;
+  gap: 90px;
+  margin-left: 200px;
+}
+
+.hero-rotation {
+  position: absolute;
+  left: 25px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 45px;
+  color: #AAAAAA;
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+}
+
+.hero-rotation1,
+.hero-rotation2 {
+  transform: rotate(-90deg);
+}
+
+.hero-decoration {
+  height: 61px;
+  width: auto;
+}
+
+.hero-scroll {
+  color: #DCCA87;
+  font-family: "Cormorant Upright", serif;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.hero-social {
+  position: absolute;
+  right: 10%;
+  bottom: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.pages {
+  color: #AAAAAA;
+  font-family: "Cormorant Upright", serif;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.hero-span {
+  color: #DCCA87;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #0C0B08;
+}
